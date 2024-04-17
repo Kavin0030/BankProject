@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Payment</title>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <h2><i>Pay_Bill</i></h2>
+            <form id="billingForm">
+                <table>
+
+                    <tr>
+                        <td>Pay From</td>
+                        <td><input type="text" id="payFrom"  name="payFrom"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Pay To</td>
+                        <td>
+                            <select>
+
+                                <option>Electricity Bill</option>
+                                <option>Mobile_Recharge</option>
+                                <option>Credit_card</option>
+                                <option>Fasttag</option>
+                                <option>Insurance</option>
+
+                                <option>Norway</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bill_number</td>
+                        <td><input type="text" id="number" name="num" required></td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>Payment</td>
+                        <td><input type="text" id="payment" name="payment" required></td>
+                    </tr>
+                    <tr>
+                        <td>Payment_Date</td>
+                        <td><input type="date" id="deliveryDate" name="deliveryDate" required></td>
+                    </tr>
+               
+            </form>
+        </table>
+        <div class="btn-container">
+            <button type="submit" class="btn">Pay Bill</button>
+            <button type="button" class="btn">Cancel</button>
+        
+        </div>
+    </center>
+
+</body>
+
+</html>
